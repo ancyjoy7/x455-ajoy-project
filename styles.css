@@ -6,6 +6,8 @@ body {
     margin: 0;
     padding: 20px;
 }
+
+/* NAVBAR */
 .nav {
     display: flex;
     justify-content: space-between; /* logo left + everything else right */
@@ -14,6 +16,34 @@ body {
     padding: 10px 20px;
 }
 
-.navlinks {
-  
+/* logo */
+.logo img {
+  height: 50px;
+}
+
+/* right side container */
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+/* nav links */
+.links a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* search icon */
+.search {
+    font-size: 18px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+/* HERO IMAGE */
+.hero img {
+    width: 100%;
+    display: block;
 }
