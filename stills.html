@@ -20,7 +20,7 @@
         <a class="active" href="interviews.html">INTERVIEWS</a>
         <a class="active" href="films.html">FILMS</a>
         <a class="active" href="trailers.html">TRAILERS</a>
-        <a class="active" href="stills.html">STILLS</a>
+        <a class="active" href="stills.html" class="active-link">STILLS</a>
         <a class="active" href="about.html">ABOUT</a>
       </div>
 
@@ -32,9 +32,85 @@
     
   </div>
 
-  <!--Main body-->
+  <!--Main body for stills-->
   
-  
+  <main class="stills">
+        <h1>Stills</h1>
+
+        <!-- Hidden checkboxes (foe one per image) -->
+        <input type="checkbox" id="lb1" class="lightbox-toggle">
+        <input type="checkbox" id="lb2" class="lightbox-toggle">
+        <input type="checkbox" id="lb3" class="lightbox-toggle">
+        <input type="checkbox" id="lb4" class="lightbox-toggle">
+        <input type="checkbox" id="lb5" class="lightbox-toggle">
+        <input type="checkbox" id="lb6" class="lightbox-toggle">
+
+        <!-- Grid of stills -->
+        <div class="stills-grid">
+             <label for="lb1" class="stills-item">
+                <img src="yiyi-still.jpg" alt="Film still 1">
+            </label>
+
+            <label for="lb2" class="stills-item">
+                <img src="taipei-story-still.jpg" alt="Film still 2">
+            </label>
+
+            <label for="lb3" class="stills-item">
+                <img src="yang-still-3.jpg" alt="Film still 3">
+            </label>
+
+            <label for="lb4" class="stills-item">
+                <img src="brighter summer day still.jpg" alt="Film still 4">
+            </label>
+
+            <label for="lb5" class="stills-item">
+                <img src="brighter summer day still - 2.jpg" alt="Film still 5">
+            </label>
+
+            <label for="lb6" class="stills-item">
+                <img src="yiyi-still-2.jpg" alt="Film still 6">
+            </label>
+
+            
+        </div>
+
+         <!-- Lightbox overlays (for one per image) -->
+        <div id="lightbox1" class="lightbox">
+            <label for="lb1" class="lightbox-overlay">
+                <img src="yiyi-still.jpg" alt="Film still 1 large">
+            </label>
+        </div>
+
+        <div id="lightbox2" class="lightbox">
+            <label for="lb2" class="lightbox-overlay">
+                <img src="taipei-story-still.jpg" alt="Film still 2 large">
+            </label>
+        </div>
+
+        <div id="lightbox3" class="lightbox">
+            <label for="lb3" class="lightbox-overlay">
+                <img src="yang-still-3.jpg" alt="Film still 3 large">
+            </label>
+        </div>
+
+        <div id="lightbox4" class="lightbox">
+            <label for="lb4" class="lightbox-overlay">
+                <img src="brighter summer day still.jpg" alt="Film still 4 large">
+            </label>
+        </div>
+
+        <div id="lightbox5" class="lightbox">
+            <label for="lb5" class="lightbox-overlay">
+                <img src="brighter summer day still - 2.jpg" alt="Film still 5 large">
+            </label>
+        </div>
+
+        <div id="lightbox6" class="lightbox">
+            <label for="lb6" class="lightbox-overlay">
+                <img src="yiyi-still-2.jpg" alt="Film still 6 large">
+            </label>
+        </div>
+    </main>
 
   <!--Footer-->
   <div class="footer">
