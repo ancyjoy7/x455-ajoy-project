@@ -33,7 +33,150 @@
   </div>
 
   <!--Main body-->
-  
+  <main class="filmography-page">
+        <h1>Filmography</h1>
+
+        <!-- hidden radios to control sort order -->
+        <input type="radio" name="sort-year" id="sort-year-asc"
+               class="sort-toggle" checked>
+        <input type="radio" name="sort-year" id="sort-year-desc"
+               class="sort-toggle">
+
+        <div class="films-table-wrapper">
+
+            <!-- TABLE: YEAR ASCENDING (default) -->
+            <table class="films-table films-table-year-asc">
+                <thead>
+                    <tr>
+                        <th class="col-year">
+                            <!-- clicking switches to descending -->
+                            <label for="sort-year-desc">Year ▲</label>
+                        </th>
+                        <th class="col-title">Title</th>
+                        <th class="col-dir">Director</th>
+                        <th class="col-writer">Writer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1982</td>
+                        <td>In Our Time</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1983</td>
+                        <td>That Day, on the Beach</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1985</td>
+                        <td>Taipei Story</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1986</td>
+                        <td>Terrorizers</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1991</td>
+                        <td>A Brighter Summer Day</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1994</td>
+                        <td>A Confucian Confusion</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1996</td>
+                        <td>Mahjong</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>2000</td>
+                        <td>Yi Yi</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- TABLE: YEAR DESCENDING -->
+            <table class="films-table films-table-year-desc">
+                <thead>
+                    <tr>
+                        <th class="col-year">
+                            <!-- click to switch back to ascending version of the table -->
+                            <label for="sort-year-asc">Year ▼</label>
+                        </th>
+                        <th class="col-title">Title</th>
+                        <th class="col-dir">Director</th>
+                        <th class="col-writer">Writer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2000</td>
+                        <td>Yi Yi</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1996</td>
+                        <td>Mahjong</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1994</td>
+                        <td>A Confucian Confusion</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1991</td>
+                        <td>A Brighter Summer Day</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1986</td>
+                        <td>Terrorizers</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1985</td>
+                        <td>Taipei Story</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1983</td>
+                        <td>That Day, on the Beach</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>1982</td>
+                        <td>In Our Time</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </main>
+
   
 
   <!--Footer-->
